@@ -1,0 +1,5 @@
+include "%H/.local/share/Romeokub/defaults/xcompose"
+
+# Identification
+<Multi_key> <space> <n> : "$Romeokub_USER_NAME"
+<Multi_key> <space> <e> : "$Romeokub_USER_EMAIL"

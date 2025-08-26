@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source $Romeokub_PATH/bin/Romeokub-sub/header.sh
+source $Romeokub_PATH/bin/Romeokub-sub/menu.sh

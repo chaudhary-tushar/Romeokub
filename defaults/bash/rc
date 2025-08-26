@@ -1,0 +1,5 @@
+source ~/.local/share/Romeokub/defaults/bash/shell
+source ~/.local/share/Romeokub/defaults/bash/aliases
+source ~/.local/share/Romeokub/defaults/bash/functions
+source ~/.local/share/Romeokub/defaults/bash/prompt
+source ~/.local/share/Romeokub/defaults/bash/init
