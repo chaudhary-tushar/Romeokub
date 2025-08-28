@@ -2,12 +2,14 @@
 
 set -e
 
-ascii_art='________                  __        ___.
-\_____  \   _____ _____  |  | ____ _\_ |__
- /   |   \ /     \\__   \ |  |/ /  |  \ __ \
-/    |    \  Y Y  \/ __ \|    <|  |  / \_\ \
-\_______  /__|_|  (____  /__|_ \____/|___  /
-        \/      \/     \/     \/         \/
+ascii_art='
+__________                             __        ___.
+╲______   ╲ ____   _____   ____  ____ │  │ ____ _╲_ │__
+ │       _╱╱  _ ╲ ╱     ╲_╱ __ ╲╱  _ ╲│  │╱ ╱  │  ╲ __ ╲
+ │    │   (  <_> )  Y Y  ╲  ___(  <_> )    <│  │  ╱ ╲_╲ ╲
+ │____│_  ╱╲____╱│__│_│  ╱╲___  >____╱│__│_ ╲____╱│___  ╱
+        ╲╱             ╲╱     ╲╱           ╲╱         ╲╱
+
 '
 
 echo -e "$ascii_art"
@@ -19,7 +21,7 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning Romeokub..."
 rm -rf ~/.local/share/Romeokub
-git clone https://github.com/basecamp/Romeokub.git ~/.local/share/Romeokub >/dev/null
+git clone https://github.com/chaudhary-tushar/Romeokub.git ~/.local/share/Romeokub >/dev/null
 if [[ $Romeokub_REF != "master" ]]; then
 	cd ~/.local/share/Romeokub
 	git fetch origin "${Romeokub_REF:-stable}" && git checkout "${Romeokub_REF:-stable}"
